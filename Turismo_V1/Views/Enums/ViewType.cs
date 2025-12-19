@@ -1,0 +1,49 @@
+﻿namespace Turismo_V1.Views.Enums
+{
+    /// <summary>
+    /// Specifies the types of views available in the application.
+    /// </summary>
+    public enum ViewType
+    {
+        #region View Types
+
+        /// <summary>
+        /// Represents the login view.
+        /// </summary>
+        Login,
+
+        /// <summary>
+        /// Represents the main application view.
+        /// </summary>
+        Main,
+
+        /// <summary>
+        /// Represents the registry application view.
+        /// </summary>
+        Registry,
+
+        /// <summary>
+        /// Represents the home lodging view.
+        /// </summary>
+        HomeLodging,
+
+        /// <summary>
+        /// Represents the booking view.
+        /// </summary>
+        Booking,
+
+        /// <summary>
+        /// Represents the check-in view.
+        /// </summary>
+        CheckIn,
+
+        /// <summary>
+        /// Represents the booking confirmation view.
+        /// </summary>
+        BookingConfirmation,
+
+        // TODO: Add more view types here as needed.
+
+        #endregion
+    }
+}

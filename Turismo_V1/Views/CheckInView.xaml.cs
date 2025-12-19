@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+using Turismo_V1.Models.Entities;
+using Turismo_V1.Models.Repository.Interfaces;
+using Turismo_V1.Models.Repository;
+using Turismo_V1.ViewModels;
+
+namespace Turismo_V1.Views
+{
+    public partial class CheckInView : Window
+    {
+        public CheckInView()
+        {
+            InitializeComponent();
+        }
+    }
+}
